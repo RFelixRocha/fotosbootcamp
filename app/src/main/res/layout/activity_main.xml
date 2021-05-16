@@ -11,8 +11,8 @@
 
     <ImageView
         android:id="@+id/image_view"
-        android:layout_width="400dp"
-        android:layout_height="400dp"
+        android:layout_width="370dp"
+        android:layout_height="370dp"
         android:scaleType="centerCrop"
         android:src="@drawable/ic_image_24"
         android:contentDescription="@string/txt_img"/>
@@ -25,4 +25,14 @@
         android:padding="10dp"
         style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
         android:text="@string/bt_txt_description"/>
+
+    <Button
+        android:id="@+id/camera_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:padding="10dp"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+        android:text="@string/txt_tirar_foto"/>
 </LinearLayout>
